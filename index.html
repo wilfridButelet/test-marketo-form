@@ -13,7 +13,7 @@
       MktoForms2.loadForm("//go.druva.com", "307-ANG-704", 4794, function(form){
         //Set the value of the Country fields, "Country":"France"
         form.vals({ "Country":"United States"});
-        form.getElementById('Marketing Comments').value="Americas";
+        form.getElementById('Marketing Comments').options[2].selected = true;
        });
     </script>
   </body>
