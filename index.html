@@ -4,7 +4,7 @@
     <title>Forms 2.0 Example 3 Test Page</title>
   </head>
   <body>
-    <h2>Example 12</h2>
+    <h2>Example 13</h2>
     <p>Sets form field values.</p>
 
     <script src="//go.druva.com/js/forms2/js/forms2.min.js"></script>
@@ -12,8 +12,8 @@
     <script>
       MktoForms2.loadForm("//go.druva.com", "307-ANG-704", 4794, function(form){
         //Set the value of the Country fields, form.getElementById('Marketing Comments').options[2].selected = true;
-        form.vals({ "Country":"United States"});
-        form.getElementById("Marketing Comments").selectedIndex = 3;
+        form.vals({ "Country":"United States","MarketingComments":"EMEA"});
+        form.getElementById("MarketingComments").selectedIndex = 1;
        });
     </script>
   </body>
